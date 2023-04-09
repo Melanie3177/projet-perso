@@ -1,0 +1,177 @@
+:root {
+    font-size: 100%;
+    --primary-black: #171616;
+    --primary-grey: #ACACAC;
+    --primary-white: #EEEEEE;
+    --secondary-grey-overlay: #C9C9C9;
+    --secondary-pink: #E5838F;
+    --font-family-titre: "Merriweather", avec-empattement;
+    --font-family-subtitle: "Merriweather", avec-empattement;
+    --font-family-text: "Merriweather", avec-empattement;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+}
+
+p {
+    font-family: var(--font-family-text);
+    font-size: 1rem;
+}
+
+a {
+    font-family: var(--font-family-titre);
+    font-size: 1.2rem;
+    color: #171616;
+    font-weight: 900;
+}
+
+a:hover {
+    color: #E5838F;
+}
+
+.logo img {
+    width: 170px;
+}
+
+.icones {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    padding: 50px 50px;
+    padding-top: 60px;
+    width: 100%;
+    height: 0;
+    background-color: var(--primary-white);
+    position: fixed;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.3rem;
+    padding-top: 47%;
+    padding-bottom: 15%;
+    text-decoration: underline;
+    text-decoration-color: #E5838F;
+    text-underline-offset: 13px;
+    text-decoration-thickness: 2px;
+}
+
+section {
+    padding-left: 10%;
+    padding-top: 6%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding-bottom: 10%;
+}
+
+section img {
+    width: 370px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tasse {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    gap: 50px;
+}
+
+.tasse img {
+    width: 60px;
+}
+
+.femme {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    gap: 50px;
+    margin-top: 5%;
+}
+
+.femme img {
+    width: 61px;
+}
+
+.parrainage {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    gap: 50px;
+    margin-top: 5%;
+}
+
+.parrainage img {
+    width: 61px;
+}
+
+.cadeau {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    gap: 50px;
+    margin-top: 5%;
+}
+
+.cadeau img {
+    width: 55px;
+}
+
+.infos-footer,
+.logo {
+
+    width: 230px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: var(--primary-white);
+}
+
+.infos-footer,
+.text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8rem;
+    width: 70%;
+    padding-left: 60px;
+}
+
+.texta {
+    font-size: 0.8rem;
+}
+
+.icones-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    gap: 50px;
+}
